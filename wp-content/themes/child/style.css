@@ -1,0 +1,44 @@
+/*
+Theme Name:     child
+Theme URI:      https: //www.hrka.cc/
+Description:    Child theme for the seven
+Author:         子主题模版
+Author URI:     https: //www.hrka.cc/
+Template:       seven
+Version:        0.1.1
+*/
+
+/*下面是子主题中自定义的样式*/
+.header-top {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+    border-style: dashed;
+}
+.site-branding-parent {
+    box-shadow: 0 3px 5px #b9b9b9;
+    -webkit-box-shadow: 0 3px 5px #b9b9b9;
+}
+.site-main .post-list.box {
+    border-radius: 4px 4px 0 0;
+    box-shadow: 0 3px 5px #b9b9b9;
+    -webkit-box-shadow: 0 3px 5px #b9b9b9
+}
+.site-main .box {
+    box-shadow: 0 3px 5px #b9b9b9;
+    -webkit-box-shadow: 0 3px 5px #b9b9b9
+}
+.widget {
+    box-shadow: 0 3px 5px #b9b9b9;
+    -webkit-box-shadow: 0 3px 5px #b9b9b9;
+}
+.site-main .post-list.box .entry-title a:hover {
+    text-decoration: none;
+    color: #38a3fd;
+}
+.widget_hot_post a:hover h2 {
+    text-decoration: none;
+    color: #38a3fd;
+}
+.menu-top ul > li > a:hover {
+    color: #38a3fd;
+}

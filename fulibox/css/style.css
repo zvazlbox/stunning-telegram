@@ -2180,7 +2180,8 @@ button.green {
 
 .meta .list-category-l {
     position: absolute;
-    left: 10px;
+    left: 0px;
+    bottom: 0px;
 }
 
 .meta {

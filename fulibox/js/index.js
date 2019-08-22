@@ -84,7 +84,7 @@ var PagePost = Vue.extend({
             this.locked = true;
             this.cpage = page;
 
-            window.location.href = "?page=" + page;
+            window.location.href = "/" + page;
         },
         //跳转
         jump: function (event) {
